@@ -1,0 +1,117 @@
+[F1]>[esc]
+[F2]>[F1]
+[F3]>[F2]
+[F4]>[F3]
+[F5]>[F4]
+[F6]>[F5]
+[F7]>[F6]
+[F8]>[F7]
+[F9]>[F8]
+[F10]>[F9]
+[F11]>[F10]
+[F12]>[F11]
+[prnt]>[F12]
+
+fn [esc]>[null]
+fn [mute]>[esc]
+fn [vol-]>[mute]
+fn [vol+]>[vol-]
+fn [play]>[vol+]
+fn [prev]>[play]
+fn [next]>[prev]
+fn [F7]>[next]
+
+{hk1}>{x1}{-lshft}{-lwin}{a}{+lshft}{+lwin}
+{hk2}>{x1}{-lshft}{-lwin}{v}{+lshft}{+lwin}
+{hk3}>{x1}{-lshft}{-lwin}{h}{+lshft}{+lwin}
+{hk4}>{x1}{-lwin}{u}{+lwin}
+{hk5}>{x1}{-lshft}{-lwin}{s}{+lshft}{+lwin}
+{hk6}>{x1}{-lshft}{-lwin}{t}{+lshft}{+lwin}
+
+[hk7]>[null]
+[hk8]>[null]
+[hk9]>[fntog]
+[hk10]>[null]
+
+[caps]>[esc][t&h150][lctrl]
+
+[lwin]>[lalt]
+[lalt]>[lwin]
+[lspc]>[fnshf]
+[ralt]>[rwin]
+[rctrl]>[ralt]
+
+fn [F8]>[null]
+fn [F9]>[null]
+fn [F10]>[null]
+fn [F11]>[null]
+fn [F12]>[null]
+fn [prnt]>[null]
+fn [numlk]>[null]
+fn [ins]>[null]
+
+fn [tilde]>[null]
+fn [1]>[null]
+fn [2]>[null]
+fn [3]>[null]
+fn [4]>[null]
+fn [5]>[null]
+fn [6]>[null]
+fn [0]>[kp0]
+fn [=]>[null]
+fn [home]>[null]
+
+fn {1}>{x1}{-ctrl}{-alt}{-lwin}{1}{+ctrl}{+alt}{+lwin}
+fn {2}>{x1}{-ctrl}{-alt}{-lwin}{2}{+ctrl}{+alt}{+lwin}
+fn {3}>{x1}{-ctrl}{-alt}{-lwin}{3}{+ctrl}{+alt}{+lwin}
+fn {4}>{x1}{-ctrl}{-alt}{-lwin}{4}{+ctrl}{+alt}{+lwin}
+
+fn [tab]>[null]
+fn {tab}>{x1}{-alt}{tab}{+alt}
+fn [q]>[null]
+fn [w]>[null]
+fn {w}>{x1}{-ctrl}{-alt}{-lwin}{w}{+ctrl}{+alt}{+lwin}
+fn [e]>[null]
+fn [r]>[null]
+fn [t]>[null]
+fn [y]>[null]
+fn [obrk]>[null]
+fn {obrk}>{x1}{-ctrl}{-alt}{-lwin}{obrk}{+ctrl}{+alt}{+lwin}
+fn [cbrk]>[null]
+fn {cbrk}>{x1}{-ctrl}{-alt}{-lwin}{cbrk}{+ctrl}{+alt}{+lwin}
+fn [\]>[null]
+fn [end]>[null]
+fn [caps]>[lctrl]
+fn [a]>[null]
+fn {a}>{x1}{-ctrl}{-alt}{-lwin}{a}{+ctrl}{+alt}{+lwin}
+fn [s]>[null]
+fn {s}>{x1}{-ctrl}{-alt}{-lwin}{s}{+ctrl}{+alt}{+lwin}
+fn [d]>[null]
+fn {d}>{x1}{-ctrl}{-alt}{-lwin}{d}{+ctrl}{+alt}{+lwin}
+fn [f]>[null]
+fn {f}>{x1}{-ctrl}{-alt}{-lwin}{f}{+ctrl}{+alt}{+lwin}
+fn [g]>[null]
+fn [h]>[null]
+fn [apos]>[null]
+fn [pup]>[null]
+fn [z]>[null]
+fn [x]>[null]
+fn [c]>[null]
+fn {c}>{x1}{-ctrl}{-alt}{-lwin}{c}{+ctrl}{+alt}{+lwin}
+fn [v]>[null]
+fn [b]>[null]
+fn [n]>[null]
+fn [com]>[null]
+fn [up]>[F16]
+fn [pdn]>[null]
+fn [hk9]>[fntog]
+fn [hk10]>[null]
+fn [lwin]>[lalt]
+fn [lalt]>[lwin]
+fn [lspc]>[fnshf]
+fn [rspc]>[null]
+fn [ralt]>[rwin]
+fn [rctrl]>[ralt]
+fn [lft]>[F18]
+fn [dwn]>[F17]
+fn [rght]>[F19]
