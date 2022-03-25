@@ -3,7 +3,7 @@
 [ralt]>[rwin]
 [rctrl]>[ralt]
 
-[caps]>[esc][t&h150][lctrl]
+[caps]>[lctrl]
 
 [F1]>[esc]
 [F2]>[F1]
@@ -49,7 +49,7 @@ fn [hk10]>[null]
 {hk4}>{x1}{-lwin}{u}{+lwin}
 {hk5}>{x1}{-lshft}{-lwin}{s}{+lshft}{+lwin}
 {hk6}>{x1}{-lshft}{-lwin}{t}{+lshft}{+lwin}
-{hk7}>{-lctrl}{-lalt}{-lwin}{-}{+lctrl}{+lalt}{+lwin}
+{hk7}>{-lctrl}{-lalt}{-lwin}{hyph}{+lctrl}{+lalt}{+lwin}
 {hk8}>{-lctrl}{-lalt}{-lwin}{=}{+lctrl}{+lalt}{+lwin}
 {hk10}>{-lctrl}{-lalt}{-lwin}{0}{+lctrl}{+lalt}{+lwin}
 [lspc]>[fnshf]
@@ -125,3 +125,5 @@ fn {d}>{x1}{-lctrl}{-lalt}{-lwin}{d}{+lctrl}{+lalt}{+lwin}
 fn {f}>{x1}{-lctrl}{-lalt}{-lwin}{f}{+lctrl}{+lalt}{+lwin}
 fn {c}>{x1}{-lctrl}{-lalt}{-lwin}{c}{+lctrl}{+lalt}{+lwin}
 fn {r}>{x1}{-lctrl}{-lalt}{-lwin}{r}{+lctrl}{+lalt}{+lwin}
+
+fn {h}>{x1}{-lalt}{-lwin}{h}{+lalt}{+lwin}
