@@ -8,6 +8,13 @@ vars:
 tasks:
   default:
     deps: [layout, settings]
+
+  unmount:
+    deps: [vdrive-mounted]
+    cmds:
+      - diskutil unmount "{{.VDRIVE}}"
+      - cmd: echo "Disconnect the v-Drive with SmartSet+F8"
+        silent: true
     
   layout:
     deps: [vdrive-mounted]
