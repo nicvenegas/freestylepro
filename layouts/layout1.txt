@@ -51,7 +51,7 @@ fn [hk10]>[null]
 {hk6}>{x1}{-lshft}{-lwin}{t}{+lshft}{+lwin}
 {hk7}>{-lctrl}{-lalt}{-lwin}{hyph}{+lctrl}{+lalt}{+lwin}
 {hk8}>{-lctrl}{-lalt}{-lwin}{=}{+lctrl}{+lalt}{+lwin}
-{hk10}>{-lctrl}{-lalt}{-lwin}{0}{+lctrl}{+lalt}{+lwin}
+{hk10}>{x1}{-lctrl}{-lalt}{-lwin}{0}{+lctrl}{+lalt}{+lwin}
 [lspc]>[fnshf]
 
 fn [tilde]>[null]
