@@ -1,0 +1,126 @@
+[caps]>[esc]
+
+[F1]>[esc]
+[F2]>[F1]
+[F3]>[F2]
+[F4]>[F3]
+[F5]>[F4]
+[F6]>[F5]
+[F7]>[F6]
+[F8]>[F7]
+[F9]>[F8]
+[F10]>[F9]
+[F11]>[F10]
+[F12]>[F11]
+[prnt]>[F12]
+[scrlk]>[F14]
+[pause]>[F15]
+
+**
+* Home row mods (CAGS)
+* https://precondition.github.io/home-row-mods
+*
+[lshft]>[null]
+[lctrl]>[null]
+[lalt]>[null]
+[lwin]>[null]
+[rwin]>[null]
+[ralt]>[null]
+[rctrl]>[null]
+[rshft]>[null]
+
+[a]>[a][t&h300][lctrl]
+[s]>[s][t&h300][lalt]
+[d]>[d][t&h300][lwin]
+[f]>[f][t&h300][lshft]
+[j]>[j][t&h300][rshft]
+[k]>[k][t&h300][rwin]
+[l]>[l][t&h300][ralt]
+[colon]>[colon][t&h300][rctrl]
+
+
+fn [esc]>[null]
+fn [mute]>[esc]
+fn [vol-]>[mute]
+fn [vol+]>[vol-]
+fn [play]>[vol+]
+fn [prev]>[play]
+fn [next]>[prev]
+fn [F7]>[next]
+fn [F8]>[null]
+fn [F9]>[null]
+fn [F10]>[null]
+fn [F11]>[null]
+fn [F12]>[null]
+fn [prnt]>[null]
+fn [numlk]>[null]
+fn {numlk}>{-lshft}{-lalt}{F14}{+lshft}{+lalt}
+fn [ins]>[null]
+fn {ins}>{-lshft}{-lalt}{F15}{+lshft}{+lalt}
+
+[hk10]>[null]
+fn [hk10]>[null]
+
+{hk1}>{x1}{-lshft}{-lwin}{a}{+lshft}{+lwin}
+{hk2}>{x1}{-lshft}{-lwin}{v}{+lshft}{+lwin}
+{hk3}>{x1}{-lshft}{-lwin}{h}{+lshft}{+lwin}
+{hk4}>{x1}{-lwin}{u}{+lwin}
+{hk5}>{x1}{-lshft}{-lwin}{s}{+lshft}{+lwin}
+{hk7}>{-lctrl}{-lalt}{-lwin}{hyph}{+lctrl}{+lalt}{+lwin}
+{hk8}>{-lctrl}{-lalt}{-lwin}{=}{+lctrl}{+lalt}{+lwin}
+{hk10}>{x1}{-lctrl}{-lalt}{-lwin}{0}{+lctrl}{+lalt}{+lwin}
+[lspc]>[fnshf]
+
+fn [tilde]>[null]
+fn [1]>[null]
+fn [2]>[null]
+fn [3]>[null]
+fn [4]>[null]
+fn [5]>[null]
+fn [6]>[null]
+fn [0]>[kp0]
+fn [=]>[null]
+fn [home]>[null]
+
+fn [tab]>[null]
+fn [q]>[null]
+fn [w]>[null]
+fn [e]>[null]
+fn [r]>[null]
+fn [t]>[null]
+fn [y]>[null]
+fn [obrk]>[null]
+fn [cbrk]>[null]
+fn [\]>[null]
+fn [end]>[null]
+
+fn [caps]>[lctrl]
+fn [a]>[null]
+fn [s]>[null]
+fn [d]>[null]
+fn [f]>[null]
+fn [g]>[null]
+fn [h]>[null]
+fn [apos]>[null]
+fn [pup]>[null]
+
+fn [z]>[null]
+fn [x]>[null]
+fn [c]>[null]
+fn [v]>[null]
+fn [b]>[null]
+fn [n]>[null]
+fn [com]>[null]
+fn [pdn]>[null]
+
+fn [lwin]>[lalt]
+fn [lalt]>[lwin]
+fn [lspc]>[fnshf]
+fn [rspc]>[null]
+fn [ralt]>[rwin]
+fn [rctrl]>[ralt]
+
+fn [up]>[F16]
+fn [dwn]>[F17]
+fn [lft]>[F18]
+fn [rght]>[F19]

@@ -2,7 +2,6 @@ version: '3'
 
 vars:
   VDRIVE: /Volumes/FS PRO
-  LAYOUT: layout1.txt
   SETTINGS: kbd_settings.txt
 
 tasks:
@@ -19,16 +18,24 @@ tasks:
   layout:
     deps: [vdrive-mounted]
     cmds:
-      - cp "layouts/{{.LAYOUT}}" "{{.VDRIVE}}/layouts"
+      - cp layouts/layout*.txt "{{.VDRIVE}}/layouts"
+      - task: howto-refresh
     sources:
-      - layouts/{{.LAYOUT}}
+      - layouts/layout*.txt
 
   settings:
     deps: [vdrive-mounted]
     cmds:
       - cp "settings/{{.SETTINGS}}" "{{.VDRIVE}}/settings"
+      - task: howto-refresh
     sources:
       - settings/{{.SETTINGS}}
+
+  howto-refresh:
+    run: once
+    cmds:
+      - cmd: echo "Refresh with SmartSet+Layout"
+        silent: true
 
   vdrive-mounted:
     preconditions:
