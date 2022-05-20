@@ -38,6 +38,7 @@ tasks:
         silent: true
 
   vdrive-mounted:
+    run: once
     preconditions:
       - sh: test -d "{{.VDRIVE}}"
         msg: Mount the v-Drive with SmartSet+F8
