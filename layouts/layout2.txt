@@ -22,7 +22,7 @@
 [pause]>[F15]
 
 fn [esc]>[null]
-fn [mute]>[esc]
+fn [mute]>[null]
 fn [vol-]>[mute]
 fn [vol+]>[vol-]
 fn [play]>[vol+]
@@ -35,79 +35,122 @@ fn [F10]>[null]
 fn [F11]>[null]
 fn [F12]>[null]
 fn [prnt]>[null]
-fn [numlk]>[null]
+fn [numlk]>[F14]
 fn {numlk}>{-lshft}{-lalt}{F14}{+lshft}{+lalt}
-fn [ins]>[null]
+fn [ins]>[F15]
 fn {ins}>{-lshft}{-lalt}{F15}{+lshft}{+lalt}
 
-[hk10]>[null]
-fn [hk10]>[null]
-
+[hk1]>[a]
 {hk1}>{x1}{-lshft}{-lwin}{a}{+lshft}{+lwin}
+[hk2]>[v]
 {hk2}>{x1}{-lshft}{-lwin}{v}{+lshft}{+lwin}
+[hk3]>[h]
 {hk3}>{x1}{-lshft}{-lwin}{h}{+lshft}{+lwin}
+[hk4]>[u]
 {hk4}>{x1}{-lwin}{u}{+lwin}
+[hk5]>[s]
 {hk5}>{x1}{-lshft}{-lwin}{s}{+lshft}{+lwin}
+[hk7]>[vol-]
 {hk7}>{-lctrl}{-lalt}{-lwin}{hyph}{+lctrl}{+lalt}{+lwin}
+[hk8]>[vol+]
 {hk8}>{-lctrl}{-lalt}{-lwin}{=}{+lctrl}{+lalt}{+lwin}
+[hk10]>[mute]
 {hk10}>{x1}{-lctrl}{-lalt}{-lwin}{0}{+lctrl}{+lalt}{+lwin}
 
-fn [tilde]>[null]
-fn [1]>[null]
-fn [2]>[null]
-fn [3]>[null]
-fn [4]>[null]
-fn [5]>[null]
-fn [6]>[null]
-fn [kp7]>[null]
-fn [kp8]>[null]
-fn [kp9]>[null]
-fn [0]>[null]
-fn [kp*]>[null]
-fn [=]>[null]
+fn [tilde]>[tilde]
+fn {tilde}>{x1}{-lwin}{tilde}{+lwin}
+fn [1]>[1]
+fn {1}>{x1}{-lwin}{1}{+lwin}
+fn [2]>[2]
+fn {2}>{x1}{-lwin}{2}{+lwin}
+fn [3]>[3]
+fn {3}>{x1}{-lwin}{3}{+lwin}
+fn [4]>[4]
+fn {4}>{x1}{-lwin}{4}{+lwin}
+fn [5]>[5]
+fn {5}>{x1}{-lwin}{5}{+lwin}
+fn [6]>[6]
+fn {6}>{x1}{-lwin}{6}{+lwin}
+fn [kp7]>[7]
+fn {kp7}>{x1}{-lwin}{7}{+lwin}
+fn [kp8]>[kp8]
+fn {kp8}>{x1}{-lwin}{8}{+lwin}
+fn [kp9]>[kp9]
+fn {kp9}>{x1}{-lwin}{9}{+lwin}
+fn [0]>[0]
+fn {0}>{x1}{-lwin}{0}{+lwin}
+fn [kp*]>[hyph]
+fn {kp*}>{x1}{-lwin}{hyph}{+lwin}
+fn [=]>[=]
+fn {=}>{x1}{-lwin}{=}{+lwin}
 fn [home]>[null]
 
 fn [tab]>[null]
-fn [q]>[null]
-fn [w]>[null]
-fn [e]>[null]
-fn [r]>[null]
-fn [t]>[null]
-fn [y]>[null]
-fn [kp4]>[null]
-fn [kp5]>[null]
-fn [kp6]>[null]
-fn [kp-]>[null]
-fn [obrk]>[null]
-fn [cbrk]>[null]
-fn [\]>[null]
+fn [q]>[q]
+fn {q}>{x1}{-lwin}{q}{+lwin}
+fn [w]>[w]
+fn {w}>{x1}{-lwin}{w}{+lwin}
+fn [e]>[e]
+fn {e}>{x1}{-lwin}{obrk}{+lwin}
+fn [r]>[r]
+fn {r}>{x1}{-lwin}{cbrk}{+lwin}
+fn [t]>[t]
+fn {t}>{x1}{-lwin}{t}{+lwin}
+fn [y]>[pup]
+fn [kp4]>[home]
+fn [kp5]>[up]
+fn [kp6]>[end]
+fn [kp-]>[del]
+fn [obrk]>[obrk]
+fn {obrk}>{x1}{-lshft}{-lwin}{obrk}{+lshft}{+lwin}
+fn {lshft}{obrk}>{x1}{-lctrl}{-lalt}{-lwin}{obrk}{+lctrl}{+lalt}{+lwin}
+fn [cbrk]>[cbrk]
+fn {cbrk}>{x1}{-lshft}{-lwin}{cbrk}{+lshft}{+lwin}
+fn {lshft}{cbrk}>{x1}{-lctrl}{-lalt}{-lwin}{cbrk}{+lctrl}{+lalt}{+lwin}
+fn [\]>[\]
+fn {\}>{x1}{-lwin}{\}{+lwin}
 fn [end]>[null]
 
 fn [caps]>[esc]
-fn [a]>[null]
-fn [s]>[null]
-fn [d]>[null]
-fn [f]>[null]
+fn [a]>[lctrl]
+fn [s]>[lalt]
+fn [d]>[lwin]
+fn [f]>[lshft]
+fn {lshft}{f}>{x1}{-lctrl}{-lalt}{-lwin}{f}{+lctrl}{+lalt}{+lwin}
 fn [g]>[null]
-fn [h]>[h]
-fn [kp1]>[f20]
-fn [kp2]>[f21]
-fn [kp3]>[f22]
-fn [kp+]>[null]
+fn [h]>[pdn]
+fn [kp1]>[lft]
+fn {lshft}{kp1}>{x1}{-lctrl}{-lalt}{-lwin}{lft}{+lctrl}{+lalt}{+lwin}
+fn [kp2]>[dwn]
+fn [kp3]>[rght]
+fn {lshft}{kp3}>{x1}{-lctrl}{-lalt}{-lwin}{rght}{+lctrl}{+lalt}{+lwin}
+fn [kp+]>[bspc]
 fn [apos]>[null]
 fn [kpent]>[ent]
 fn [pup]>[null]
 
-fn [z]>[null]
-fn [x]>[null]
-fn [c]>[null]
-fn [v]>[null]
+fn [z]>[z]
+fn {z}>{x1}{-lwin}{z}{+lwin}
+fn [x]>[x]
+fn {x}>{x1}{-lwin}{x}{+lwin}
+fn [c]>[c]
+fn {c}>{x1}{-lwin}{c}{+lwin}
+fn {lshft}{c}>{x1}{-lctrl}{-lalt}{-lwin}{c}{+lctrl}{+lalt}{+lwin}
+fn [v]>[v]
+fn {v}>{x1}{-lwin}{v}{+lwin}
 fn [b]>[null]
-fn [n]>[null]
-fn [kp0]>[null]
-fn [com]>[null]
-fn [kp.]>[null]
-fn [kp/]>[null]
+fn [n]>[n]
+fn {n}>{x1}{-lwin}{n}{+lwin}
+fn [kp0]>[m]
+fn {lshft}{kp0}>{x1}{-lctrl}{-lalt}{-lwin}{m}{+lctrl}{+lalt}{+lwin}
+fn [com]>[com]
+fn {com}>{x1}{-lalt}{-lwin}{lft}{+lalt}{+lwin}
+fn {lshft}{com}>{x1}{-lctrl}{-lalt}{-lwin}{com}{+lctrl}{+lalt}{+lwin}
+fn [kp.]>[per]
+fn {kp.}>{x1}{-lalt}{-lwin}{rght}{+lalt}{+lwin}
+fn {lshft}{kp.}>{x1}{-lctrl}{-lalt}{-lwin}{per}{+lctrl}{+lalt}{+lwin}
+fn [kp/]>[/]
+fn {kp/}>{x1}{-lwin}{/}{+lwin}
 fn [pdn]>[null]
 
 fn [lwin]>[lalt]
