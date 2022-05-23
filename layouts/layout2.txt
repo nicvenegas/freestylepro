@@ -50,12 +50,15 @@ fn {ins}>{-lshft}{-lalt}{F15}{+lshft}{+lalt}
 {hk4}>{x1}{-lwin}{u}{+lwin}
 [hk5]>[s]
 {hk5}>{x1}{-lshft}{-lwin}{s}{+lshft}{+lwin}
-[hk7]>[vol-]
-{hk7}>{-lctrl}{-lalt}{-lwin}{hyph}{+lctrl}{+lalt}{+lwin}
-[hk8]>[vol+]
-{hk8}>{-lctrl}{-lalt}{-lwin}{=}{+lctrl}{+lalt}{+lwin}
+
+*
+* Volume controls
+* Requires using Keyboard Maestro to map F13/F20 "is down" to
+* "Small Decrease/Increase System Sound Volume"
+*
+[hk7]>[F13]
+[hk8]>[F20]
 [hk10]>[mute]
-{hk10}>{x1}{-lctrl}{-lalt}{-lwin}{0}{+lctrl}{+lalt}{+lwin}
 
 fn [tilde]>[tilde]
 fn {tilde}>{x1}{-lwin}{tilde}{+lwin}
