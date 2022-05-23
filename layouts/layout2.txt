@@ -163,7 +163,13 @@ fn [rspc]>[null]
 fn [ralt]>[rwin]
 fn [rctrl]>[ralt]
 
+*
+* Mission Control
+* Requires mapping in System Preferences > Keyboard > Shortcuts >
+* Mission Control
+*
 fn [up]>[F16]
 fn [dwn]>[F17]
+fn {lshft}{dwn}>{x1}{-lshft}{F17}{+lshft}
 fn [lft]>[F18]
 fn [rght]>[F19]
