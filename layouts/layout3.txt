@@ -106,10 +106,10 @@ fn [=]>[F12]
 
 fn {e}>{x1}{-lwin}{obrk}{+lwin}
 fn {r}>{x1}{-lwin}{cbrk}{+lwin}
+fn {obrk}>{x1}{-lshft}{-lwin}{obrk}{+lshft}{+lwin}
+fn {cbrk}>{x1}{-lshft}{-lwin}{cbrk}{+lshft}{+lwin}
 * fn {com}>{x1}{-lalt}{-lwin}{lft}{+lalt}{+lwin}
 * fn {kp.}>{x1}{-lalt}{-lwin}{rght}{+lalt}{+lwin}
-* fn {obrk}>{x1}{-lshft}{-lwin}{obrk}{+lshft}{+lwin}
-* fn {cbrk}>{x1}{-lshft}{-lwin}{cbrk}{+lshft}{+lwin}
 
 fn [y]>[pup]
 fn [kp4]>[home]
@@ -137,10 +137,10 @@ fn {lshft}{f}>{x1}{-lctrl}{-lalt}{-lwin}{f}{+lctrl}{+lalt}{+lwin}
 fn {lshft}{kp0}>{x1}{-lctrl}{-lalt}{-lwin}{m}{+lctrl}{+lalt}{+lwin}
 fn {lshft}{kp1}>{x1}{-lctrl}{-lalt}{-lwin}{lft}{+lctrl}{+lalt}{+lwin}
 fn {lshft}{kp3}>{x1}{-lctrl}{-lalt}{-lwin}{rght}{+lctrl}{+lalt}{+lwin}
-* fn {lshft}{obrk}>{x1}{-lctrl}{-lalt}{-lwin}{obrk}{+lctrl}{+lalt}{+lwin}
-* fn {lshft}{cbrk}>{x1}{-lctrl}{-lalt}{-lwin}{cbrk}{+lctrl}{+lalt}{+lwin}
-* fn {lshft}{com}>{x1}{-lctrl}{-lalt}{-lwin}{com}{+lctrl}{+lalt}{+lwin}
-* fn {lshft}{kp.}>{x1}{-lctrl}{-lalt}{-lwin}{per}{+lctrl}{+lalt}{+lwin}
+fn {lshft}{obrk}>{x1}{-lctrl}{-lalt}{-lwin}{obrk}{+lctrl}{+lalt}{+lwin}
+fn {lshft}{cbrk}>{x1}{-lctrl}{-lalt}{-lwin}{cbrk}{+lctrl}{+lalt}{+lwin}
+fn {lshft}{com}>{x1}{-lctrl}{-lalt}{-lwin}{com}{+lctrl}{+lalt}{+lwin}
+fn {lshft}{kp.}>{x1}{-lctrl}{-lalt}{-lwin}{per}{+lctrl}{+lalt}{+lwin}
 
 
 *
