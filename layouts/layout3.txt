@@ -157,6 +157,15 @@ fn [rght]>[F19]
 
 
 *
+* Incompatible with KMonad
+*
+* Encountered error in KeySource: [Cannot translate from mac keycode: (7,101)]
+* kmonad: [Cannot translate from mac keycode: (7,101)]
+*
+fn [hk10]>null
+
+
+*
 * Disable keys available via home row mods/extend layer
 *
 [bspc]>[null]

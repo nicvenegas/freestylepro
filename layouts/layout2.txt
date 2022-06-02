@@ -154,3 +154,12 @@ fn [dwn]>[F17]
 fn {lshft}{dwn}>{x1}{-lshft}{F17}{+lshft}
 fn [lft]>[F18]
 fn [rght]>[F19]
+
+
+*
+* Incompatible with KMonad
+*
+* Encountered error in KeySource: [Cannot translate from mac keycode: (7,101)]
+* kmonad: [Cannot translate from mac keycode: (7,101)]
+*
+fn [hk10]>null
