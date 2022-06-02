@@ -4,6 +4,7 @@
 * NB We use rctrl so that we can map it to esc in KMonad and still have lctrl
 * work
 *
+fn [esc]>[caps]
 [caps]>[rctrl]
 fn [caps]>[rctrl]
 
