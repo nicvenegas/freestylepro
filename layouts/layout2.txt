@@ -68,7 +68,7 @@ fn {ins}>{-lshft}{-lalt}{F15}{+lshft}{+lalt}
 *
 * Zoom shortcuts
 *
-{hk1}>{x1}{-lshft}{-lwin}{a}{+lshft}{+lwin}
+{hk1}>{x1}{-lctrl}{-lalt}{-lwin}{a}{+lctrl}{+lalt}{+lwin}
 {hk2}>{x1}{-lshft}{-lwin}{v}{+lshft}{+lwin}
 {hk3}>{x1}{-lshft}{-lwin}{h}{+lshft}{+lwin}
 {hk4}>{x1}{-lwin}{u}{+lwin}
