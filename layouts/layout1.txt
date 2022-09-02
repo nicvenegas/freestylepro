@@ -74,6 +74,10 @@ fn {ins}>{-lshft}{-lalt}{F15}{+lshft}{+lalt}
 {hk4}>{x1}{-lwin}{u}{+lwin}
 {hk5}>{x1}{-lshft}{-lwin}{s}{+lshft}{+lwin}
 
+*
+* Recreate macOS fn key via KMonad mapping of ins → fn
+*
+[hk9]>[ins]
 
 *
 * Volume controls
