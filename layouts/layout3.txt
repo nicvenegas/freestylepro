@@ -94,6 +94,7 @@ fn {ins}>{-lshft}{-lalt}{F15}{+lshft}{+lalt}
 *
 fn {lshft}{c}>{x1}{-lctrl}{-lalt}{-lwin}{c}{+lctrl}{+lalt}{+lwin}
 fn {lshft}{f}>{x1}{-lctrl}{-lalt}{-lwin}{f}{+lctrl}{+lalt}{+lwin}
+fn {lshft}{g}>{x1}{-lctrl}{-lalt}{-lwin}{g}{+lctrl}{+lalt}{+lwin}
 fn {lshft}{kp0}>{x1}{-lctrl}{-lalt}{-lwin}{m}{+lctrl}{+lalt}{+lwin}
 fn {lshft}{kp1}>{x1}{-lctrl}{-lalt}{-lwin}{lft}{+lctrl}{+lalt}{+lwin}
 fn {lshft}{kp3}>{x1}{-lctrl}{-lalt}{-lwin}{rght}{+lctrl}{+lalt}{+lwin}
